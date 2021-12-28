@@ -1,5 +1,5 @@
 :root {
-  --primnary-color: #ffb319;
+  --primary-color: #ffb319;
   --secondary-color: #ffe194;
   --tertiary-color: #b8dfd8;
   --background-color: #e8f6ef;
@@ -39,17 +39,17 @@ h6 {
 .pageHero h3 {
   font-size: 36px;
 }
-.aboutHero {
+.abouPage {
   background: var(--tertiary-color);
   text-align: center;
   padding: 160px 20px;
 }
 
-.aboutHero h1 {
+.aboutPage h1 {
   font-size: 64px;
 }
 
-.aboutHero h3 {
+.aboutPage h3 {
   font-size: 24px;
 }
 
@@ -68,7 +68,7 @@ h6 {
 }
 
 .about-link {
-  background-color: var(--primnary-color);
+  background-color: var(--primary-color);
   color: var(--tertiary-color);
   box-shadow: var(--box-shadow);
 }
@@ -78,15 +78,15 @@ h6 {
 
 .contact-link {
   display: block;
-
   background-color: var(--background-color);
-  border: 1px solid var(--primnary-color);
+  border: 1px solid var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--primnary-color);
 }
 .contact-link:hover {
   color: black;
 }
+
 .projectDescription h2 {
   text-align: center;
   font-weight: bold;
@@ -105,6 +105,14 @@ h6 {
 .btn-project:hover {
   color: black;
 }
+.aboutPage .contact-link {
+  background: var(--primary-color);
+  color: var(--tertiary-color);
+  box-shadow: var(--box-shadow);
+}
+.aboutPage .contact-link:hover {
+  color: black;
+}
 
 @media (max-width: 576px) {
   h1 {
@@ -121,7 +129,7 @@ h6 {
     padding: 0;
     text-align: center;
   }
-  .aboutHero {
+  .aboutPage {
     padding: 0;
     text-align: center;
   }
