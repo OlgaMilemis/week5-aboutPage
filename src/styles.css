@@ -1,10 +1,16 @@
 :root {
   --primnary-color: #ffb319;
   --secondary-color: #ffe194;
-  --button-color: #b8dfd8;
+  --tertiary-color: #b8dfd8;
   --background-color: #e8f6ef;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+body {
+  margin: 100px auto;
+  background: var(--background-color);
+}
+
 h1 {
   font-family: "Oswald", sans-serif;
 }
@@ -15,4 +21,8 @@ h4,
 h5,
 h6 {
   font-family: "Bitter", serif;
+}
+
+.pageHero {
+  background: var(--tertiary-color);
 }
