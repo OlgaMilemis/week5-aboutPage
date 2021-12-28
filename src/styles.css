@@ -97,7 +97,7 @@ h6 {
   border-radius: 7px;
   text-decoration: none;
   text-transform: capitalize;
-  background-color: var(--primnary-color);
+  background-color: var(--primary-color);
   color: var(--tertiary-color);
   box-shadow: var(--box-shadow);
 }
