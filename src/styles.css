@@ -39,6 +39,19 @@ h6 {
 .pageHero h3 {
   font-size: 36px;
 }
+.aboutHero {
+  background: var(--tertiary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.aboutHero h1 {
+  font-size: 64px;
+}
+
+.aboutHero h3 {
+  font-size: 24px;
+}
 
 .navigation-links {
   display: flex;
@@ -105,6 +118,10 @@ h6 {
     font-size: 12px;
   }
   .projectDescription {
+    padding: 0;
+    text-align: center;
+  }
+  .aboutHero {
     padding: 0;
     text-align: center;
   }
