@@ -28,3 +28,84 @@ h6 {
   text-align: center;
   padding: 160px 20px;
 }
+.pageHero h2 {
+  font-size: 64px;
+}
+
+.pageHero h1 {
+  font-size: 96px;
+}
+
+.pageHero h3 {
+  font-size: 36px;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.navigation-links a {
+  margin: 20px;
+  padding: 20px 15px;
+  border-radius: 7px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.about-link {
+  background-color: var(--primnary-color);
+  color: var(--tertiary-color);
+  box-shadow: var(--box-shadow);
+}
+.about-link:hover {
+  color: black;
+}
+
+.contact-link {
+  display: block;
+
+  background-color: var(--background-color);
+  border: 1px solid var(--primnary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--primnary-color);
+}
+.contact-link:hover {
+  color: black;
+}
+.projectDescription h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.btn-project {
+  margin: 20px;
+  padding: 20px 40px;
+  border-radius: 7px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: var(--primnary-color);
+  color: var(--tertiary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.btn-project:hover {
+  color: black;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  .projectDescription {
+    padding: 0;
+    text-align: center;
+  }
+}
