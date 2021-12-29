@@ -41,6 +41,7 @@ h6 {
 }
 
 .projectsContainer {
+  padding: 160px 20px;
 }
 
 .navigation-links {
@@ -62,7 +63,7 @@ h6 {
   background-color: var(--background-color);
   border: 1px solid var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: var(--primnary-color);
+  color: var(--primary-color);
 }
 .about-link:hover {
   color: black;
