@@ -39,18 +39,8 @@ h6 {
 .pageHero h3 {
   font-size: 36px;
 }
-.abouPage {
-  background: var(--tertiary-color);
-  text-align: center;
-  padding: 160px 20px;
-}
 
-.aboutPage h1 {
-  font-size: 64px;
-}
-
-.aboutPage h3 {
-  font-size: 24px;
+.projectsContainer {
 }
 
 .navigation-links {
@@ -68,20 +58,19 @@ h6 {
 }
 
 .about-link {
-  background-color: var(--primary-color);
-  color: var(--tertiary-color);
-  box-shadow: var(--box-shadow);
-}
-.about-link:hover {
-  color: black;
-}
-
-.contact-link {
   display: block;
   background-color: var(--background-color);
   border: 1px solid var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--primnary-color);
+}
+.about-link:hover {
+  color: black;
+}
+.contact-link {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  box-shadow: var(--box-shadow);
 }
 .contact-link:hover {
   color: black;
