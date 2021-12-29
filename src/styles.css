@@ -95,13 +95,12 @@ h6 {
 .btn-project:hover {
   color: black;
 }
-.aboutPage .contact-link {
-  background: var(--primary-color);
-  color: var(--tertiary-color);
-  box-shadow: var(--box-shadow);
+.blog {
+  color: var(--secondary-color);
 }
-.aboutPage .contact-link:hover {
-  color: black;
+.cooperation h2 {
+  font-family: "Oswald", sans-serif;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 576px) {
